@@ -1196,7 +1196,721 @@ const exams = {
 
 
 ],
+"2015+2"[
 
+  {
+    q: "Which of the following is a common way of communicating with I/O devices?",
+    options: [
+      "Memory-mapped I/O",
+      "Direct memory access (DMA)",
+      "Interrupt-driven I/O",
+      "All of the above"
+    ],
+    answer: 3,
+    explanation: "Memory-mapped I/O, DMA, and interrupt-driven I/O are all common ways of communicating with I/O devices."
+  },
+  {
+    q: "In memory-mapped I/O, I/O devices are mapped into the:",
+    options: [
+      "Main memory address space",
+      "Cache memory address space",
+      "Virtual memory address space",
+      "Secondary memory address space"
+    ],
+    answer: 0,
+    explanation: "In memory-mapped I/O, I/O devices are assigned addresses in the main memory address space."
+  },
+  {
+    q: "Which technique allows data to be transferred between an I/O device and memory without involving the CPU?",
+    options: [
+      "Memory-mapped I/O",
+      "Direct memory access (DMA)",
+      "Interrupt-driven I/O",
+      "I/O polling"
+    ],
+    answer: 1,
+    explanation: "DMA allows the I/O device to transfer data directly to/from memory without CPU intervention."
+  },
+  {
+    q: "Which method is used to handle I/O operations that require immediate attention from the CPU?",
+    options: [
+      "Memory-mapped I/O",
+      "Direct memory access (DMA)",
+      "Interrupt-driven I/O",
+      "I/O polling"
+    ],
+    answer: 2,
+    explanation: "Interrupt-driven I/O uses interrupts to signal the CPU that an I/O operation requires immediate attention."
+  },
+  {
+    q: "Which I/O technique involves the CPU continuously checking the status of an I/O device for data transfer completion?",
+    options: [
+      "Memory-mapped I/O",
+      "Direct memory access (DMA)",
+      "Interrupt-driven I/O",
+      "I/O polling"
+    ],
+    answer: 3,
+    explanation: "I/O polling involves the CPU repeatedly checking the status of an I/O device until data transfer is complete."
+  },
+  {
+    q: "Which standard I/O interface is commonly used in UNIX-like operating systems?",
+    options: [
+      "ASCII",
+      "USB",
+      "RS-232",
+      "POSIX"
+    ],
+    answer: 3,
+    explanation: "POSIX is a standard I/O interface commonly used in UNIX-like operating systems."
+  },
+  {
+    q: "Which standard I/O interface allows the connection of peripheral devices using a serial communication protocol?",
+    options: [
+      "USB",
+      "Ethernet",
+      "RS-232",
+      "HDMI"
+    ],
+    answer: 2,
+    explanation: "RS-232 is a standard interface for serial communication and is commonly used for connecting peripheral devices."
+  },
+  {
+    q: "Which standard I/O interface is widely used for connecting external storage devices, such as hard drives and flash drives?",
+    options: [
+      "SATA",
+      "USB",
+      "Ethernet",
+      "HDMI"
+    ],
+    answer: 1,
+    explanation: "USB (Universal Serial Bus) is widely used for connecting external storage devices and other peripherals."
+  },
+  {
+    q: "Which standard I/O interface is commonly used for high-speed communication between computer components?",
+    options: [
+      "SATA",
+      "USB",
+      "Ethernet",
+      "HDMI"
+    ],
+    answer: 0,
+    explanation: "SATA (Serial ATA) is commonly used for high-speed communication between storage devices and the motherboard."
+  },
+  {
+    q: "Which standard I/O interface is primarily used for audio and video transmission between devices?",
+    options: [
+      "SATA",
+      "USB",
+      "Ethernet",
+      "HDMI"
+    ],
+    answer: 3,
+    explanation: "HDMI (High-Definition Multimedia Interface) is used primarily for audio and video transmission between devices."
+  },
+  {
+    q: "Which of the following techniques improves the performance of a processor by overlapping the execution of multiple instructions?",
+    options: [
+      "Pipelining",
+      "Caching",
+      "Superscalar architecture",
+      "Branch prediction"
+    ],
+    answer: 0,
+    explanation: "Pipelining allows multiple instructions to execute simultaneously by dividing execution into stages."
+  },
+  {
+    q: "Which technique improves the performance of a processor by storing frequently accessed data closer to the processor?",
+    options: [
+      "Pipelining",
+      "Caching",
+      "Superscalar architecture",
+      "Branch prediction"
+    ],
+    answer: 1,
+    explanation: "Caching reduces memory access time by storing frequently accessed data closer to the processor."
+  },
+  {
+    q: "Which architecture allows multiple instructions to be executed in parallel by having multiple execution units?",
+    options: [
+      "Pipelining",
+      "Caching",
+      "Superscalar architecture",
+      "Branch prediction"
+    ],
+    answer: 2,
+    explanation: "Superscalar architecture enables execution of multiple instructions simultaneously using multiple execution units."
+  },
+  {
+    q: "Which technique predicts the outcome of conditional branches to improve instruction execution in a processor?",
+    options: [
+      "Pipelining",
+      "Caching",
+      "Superscalar architecture",
+      "Branch prediction"
+    ],
+    answer: 3,
+    explanation: "Branch prediction predicts whether a conditional branch will be taken, allowing prefetch of instructions."
+  },
+  {
+    q: "Which technique improves memory access performance by organizing memory into hierarchical levels?",
+    options: [
+      "Pipelining",
+      "Caching",
+      "Superscalar architecture",
+      "Virtual memory"
+    ],
+    answer: 1,
+    explanation: "Caching improves memory access by using a hierarchy of cache memories that store frequently accessed data."
+  },
+  {
+    q: "Which technique reduces memory access latency by allowing the processor to fetch multiple instructions in a single cycle?",
+    options: [
+      "Pipelining",
+      "Caching",
+      "Superscalar architecture",
+      "Instruction-level parallelism"
+    ],
+    answer: 3,
+    explanation: "Instruction-level parallelism allows the processor to fetch and execute multiple instructions in parallel."
+  },
+  {
+    q: "Which technique improves performance by translating high-level language instructions into a more efficient form before execution?",
+    options: [
+      "Pipelining",
+      "Caching",
+      "Superscalar architecture",
+      "Just-in-time (JIT) compilation"
+    ],
+    answer: 3,
+    explanation: "JIT compilation translates high-level instructions into machine code at runtime for better efficiency."
+  },
+  {
+    q: "Which technique improves performance by predicting the next set of instructions to be executed based on past execution patterns?",
+    options: [
+      "Pipelining",
+      "Caching",
+      "Superscalar architecture",
+      "Branch prediction"
+    ],
+    answer: 3,
+    explanation: "Branch prediction predicts the next instructions to reduce pipeline stalls and improve performance."
+  },
+  {
+    q: "Which technique improves performance by dynamically reordering instructions to maximize instruction-level parallelism?",
+    options: [
+      "Pipelining",
+      "Caching",
+      "Superscalar architecture",
+      "Out-of-order execution"
+    ],
+    answer: 3,
+    explanation: "Out-of-order execution allows instructions to execute in an order that maximizes parallelism."
+  },
+  {
+    q: "Which technique improves performance by dynamically allocating processor resources based on program behavior?",
+    options: [
+      "Pipelining",
+      "Caching",
+      "Superscalar architecture",
+      "Dynamic resource allocation"
+    ],
+    answer: 3,
+    explanation: "Dynamic resource allocation adjusts processor resources in response to program behavior to improve performance."
+  },
+
+
+
+    {
+  q: "Every recursive language is also a recursively enumerable language. True or False?",
+  options: [
+    "Every recursive language is also a recursively enumerable language.",
+    "Every recursively enumerable language is also a recursive language.",
+    "Recursive languages are a strict subset of recursively enumerable languages.",
+    "Recursive languages are unrelated to recursively enumerable languages."
+  ],
+  answer: 0,
+  explanation: "Recursive languages are a subset of recursively enumerable languages, and they can be recognized by a Turing machine that always halts."
+},
+{
+  q: "Which of the following is an example of an undecidable problem?",
+  options: [
+    "Checking if a given number is prime",
+    "Sorting a list of numbers in ascending order",
+    "Solving a system of linear equations",
+    "Determining if a Turing machine halts on a given input"
+  ],
+  answer: 3,
+  explanation: "Determining if a Turing machine halts on a given input, known as the halting problem, is undecidable."
+},
+{
+  q: "Which of the following is an example of a non-recursive language?",
+  options: [
+    "{anbncn | n ≥ 0}",
+    "{an | n is a prime number}",
+    "{wwR | w is any string}",
+    "{anb | n ≥ 0}"
+  ],
+  answer: 2,
+  explanation: "The language {wwR | w is any string} cannot be recognized by a Turing machine that always halts, making it non-recursive."
+},
+{
+  q: "Which of the following is true about the Chomsky hierarchy?",
+  options: [
+    "It categorizes formal languages based on their computational complexity.",
+    "It categorizes formal languages based on their expressive power.",
+    "It categorizes formal languages based on their alphabet size.",
+    "It categorizes formal languages based on their syntactic structure."
+  ],
+  answer: 3,
+  explanation: "The Chomsky hierarchy categorizes formal languages into four levels based on their syntactic structure and grammar types."
+},
+{
+  q: "Which type of grammar is used to generate the language L = {anbn | n ≥ 0}?",
+  options: [
+    "Regular grammar",
+    "Context-free grammar",
+    "Context-sensitive grammar",
+    "Unrestricted grammar"
+  ],
+  answer: 1,
+  explanation: "The language {anbn | n ≥ 0} can be generated by a context-free grammar."
+},
+{
+  q: "Which of the following is a context-sensitive language?",
+  options: [
+    "{anbn | n ≥ 0}",
+    "{anbm | n, m ≥ 0}",
+    "{an | n is a prime number}",
+    "{anb | n ≥ 0}"
+  ],
+  answer: 1,
+  explanation: "The language {anbm | n, m ≥ 0} is context-sensitive."
+},
+{
+  q: "Which type of automaton is used to recognize the language L = {anbn | n ≥ 0}?",
+  options: [
+    "Finite automaton",
+    "Pushdown automaton",
+    "Turing machine",
+    "Non-deterministic automaton"
+  ],
+  answer: 1,
+  explanation: "A pushdown automaton, using a stack, can recognize {anbn | n ≥ 0}."
+},
+{
+  q: "Which grammar generates the language L = {wwR | w is any string}?",
+  options: [
+    "Regular grammar",
+    "Context-free grammar",
+    "Context-sensitive grammar",
+    "Unrestricted grammar"
+  ],
+  answer: 3,
+  explanation: "The language {wwR | w is any string} requires an unrestricted grammar."
+},
+{
+  q: "Which type of automaton is used to recognize the language L = {wwR | w is any string}?",
+  options: [
+    "Finite automaton",
+    "Pushdown automaton",
+    "Turing machine",
+    "Non-deterministic automaton"
+  ],
+  answer: 2,
+  explanation: "A Turing machine can recognize {wwR | w is any string}."
+},
+{
+  q: "Which type of grammar is used to generate the language L = {0n1n2n | n ≥ 0}?",
+  options: [
+    "Regular grammar",
+    "Context-free grammar",
+    "Context-sensitive grammar",
+    "Unrestricted grammar"
+  ],
+  answer: 2,
+  explanation: "The language {0n1n2n | n ≥ 0} is generated by a context-sensitive grammar."
+},
+{
+  q: "Which type of automaton is used to recognize the language L = {0n1n2n | n ≥ 0}?",
+  options: [
+    "Finite automaton",
+    "Pushdown automaton",
+    "Turing machine",
+    "Non-deterministic automaton"
+  ],
+  answer: 2,
+  explanation: "A Turing machine can recognize {0n1n2n | n ≥ 0}."
+},
+{
+  q: "Which type of grammar is used to generate the language L = {an | n is a prime number}?",
+  options: [
+    "Regular grammar",
+    "Context-free grammar",
+    "Context-sensitive grammar",
+    "Unrestricted grammar"
+  ],
+  answer: 3,
+  explanation: "Generating {an | n is prime} requires an unrestricted grammar."
+},
+{
+  q: "Which type of automaton is used to recognize the language L = {an | n is a prime number}?",
+  options: [
+    "Finite automaton",
+    "Pushdown automaton",
+    "Turing machine",
+    "Non-deterministic automaton"
+  ],
+  answer: 2,
+  explanation: "A Turing machine can recognize {an | n is a prime number}."
+},
+{
+  q: "Which type of grammar is used to generate the language L = {anb | n ≥ 0}?",
+  options: [
+    "Regular grammar",
+    "Context-free grammar",
+    "Context-sensitive grammar",
+    "Unrestricted grammar"
+  ],
+  answer: 0,
+  explanation: "The language {anb | n ≥ 0} can be generated by a regular grammar."
+},
+{
+  q: "Which complexity class contains problems that can be solved in polynomial time?",
+  options: [
+    "P",
+    "NP",
+    "PSPACE",
+    "EXPTIME"
+  ],
+  answer: 0,
+  explanation: "The complexity class P contains problems solvable in polynomial time."
+},
+{
+  q: "Which complexity class represents problems that can be verified in polynomial time?",
+  options: [
+    "P",
+    "NP",
+    "PSPACE",
+    "EXPTIME"
+  ],
+  answer: 1,
+  explanation: "NP contains problems verifiable in polynomial time."
+},
+{
+  q: "Which complexity class contains problems that can be solved using polynomial space?",
+  options: [
+    "P",
+    "NP",
+    "PSPACE",
+    "EXPTIME"
+  ],
+  answer: 2,
+  explanation: "PSPACE contains problems solvable using polynomial space."
+},
+{
+  q: "Which concept is used to show that one problem can be reduced to another to prove hardness?",
+  options: [
+    "Reductions",
+    "Hierarchy",
+    "Completeness",
+    "Complexity classes"
+  ],
+  answer: 0,
+  explanation: "Reductions are used to prove hardness or completeness by transforming one problem into another."
+},
+{
+  q: "Which complexity class represents the most difficult problems in a particular class?",
+  options: [
+    "P",
+    "NP",
+    "PSPACE",
+    "EXPTIME"
+  ],
+  answer: 2,
+  explanation: "PSPACE represents the most difficult problems in polynomial space."
+},
+{
+  q: "Which phase of the compiler is responsible for recognizing tokens and building a symbol table?",
+  options: [
+    "Lexical Analysis",
+    "Syntax Analysis",
+    "Semantic Analysis",
+    "Code Generation"
+  ],
+  answer: 0,
+  explanation: "Lexical Analysis scans the source code, recognizes tokens, and builds a symbol table."
+},
+{
+  q: "What is the primary output of the lexical analysis phase?",
+  options: [
+    "Abstract Syntax Tree (AST)",
+    "Symbol Table",
+    "Intermediate Code",
+    "Assembly Code"
+  ],
+  answer: 1,
+  explanation: "The primary output of lexical analysis is the symbol table."
+},
+{
+  q: "Which phase of the compiler is responsible for checking the correctness of the program's structure?",
+  options: [
+    "Lexical Analysis",
+    "Syntax Analysis",
+    "Semantic Analysis",
+    "Code Generation"
+  ],
+  answer: 1,
+  explanation: "Syntax Analysis checks the correctness of the program's structure."
+},
+
+
+
+    
+
+
+
+
+    
+{
+  q: "The basic building block of computer hardware is:",
+  options: [
+    "CPU",
+    "Memory",
+    "Hard disk",
+    "Motherboard"
+  ],
+  answer: 1,
+  explanation: "Memory is the fundamental building block of computer hardware, where data and instructions are stored for processing."
+},
+{
+  q: "Which component is responsible for executing instructions and performing calculations in a computer?",
+  options: [
+    "CPU",
+    "Memory",
+    "Hard disk",
+    "Motherboard"
+  ],
+  answer: 0,
+  explanation: "The Central Processing Unit (CPU) executes instructions and performs calculations in a computer."
+},
+{
+  q: "Which component stores data and instructions even when the computer is turned off?",
+  options: [
+    "CPU",
+    "Memory",
+    "Hard disk",
+    "Motherboard"
+  ],
+  answer: 2,
+  explanation: "The hard disk is a non-volatile storage device that stores data and instructions even when the computer is turned off."
+},
+{
+  q: "The motherboard of a computer is responsible for:",
+  options: [
+    "Executing instructions",
+    "Storing data",
+    "Connecting different components",
+    "Performing calculations"
+  ],
+  answer: 2,
+  explanation: "The motherboard acts as a central hub connecting the CPU, memory, storage devices, and peripherals."
+},
+{
+  q: "Which component is responsible for storing data and instructions temporarily during program execution?",
+  options: [
+    "CPU",
+    "Memory",
+    "Hard disk",
+    "Motherboard"
+  ],
+  answer: 1,
+  explanation: "Memory stores data and instructions temporarily while a program is executed by the CPU."
+},
+{
+  q: "Which type of software controls and manages the hardware resources of a computer?",
+  options: [
+    "Operating system",
+    "Application software",
+    "Programming language",
+    "Compiler"
+  ],
+  answer: 0,
+  explanation: "The operating system manages hardware resources such as memory, CPU, and peripherals."
+},
+{
+  q: "Which software allows users to perform specific tasks or functions on a computer?",
+  options: [
+    "Operating system",
+    "Application software",
+    "Programming language",
+    "Compiler"
+  ],
+  answer: 1,
+  explanation: "Application software allows users to perform tasks such as word processing or graphic design."
+},
+{
+  q: "Which component of the computer system holds the instructions and data that are currently being processed?",
+  options: [
+    "CPU",
+    "Memory",
+    "Hard disk",
+    "Motherboard"
+  ],
+  answer: 1,
+  explanation: "Memory holds the instructions and data that are currently being processed by the CPU."
+},
+{
+  q: "Which type of software translates high-level programming languages into machine code?",
+  options: [
+    "Operating system",
+    "Application software",
+    "Programming language",
+    "Compiler"
+  ],
+  answer: 3,
+  explanation: "A compiler translates high-level programming languages into machine code."
+},
+{
+  q: "The system clock in a computer is responsible for:",
+  options: [
+    "Controlling the execution speed of instructions",
+    "Storing data and instructions",
+    "Managing the input/output devices",
+    "Connecting different hardware components"
+  ],
+  answer: 0,
+  explanation: "The system clock generates timing signals to control execution speed and synchronize operations."
+},
+{
+  q: "Which process is responsible for fetching instructions from memory?",
+  options: [
+    "Decoding",
+    "Execution",
+    "Fetching",
+    "Storing"
+  ],
+  answer: 2,
+  explanation: "Fetching retrieves instructions from memory to be executed by the CPU."
+},
+{
+  q: "Which process decodes the fetched instruction and determines the necessary actions?",
+  options: [
+    "Decoding",
+    "Execution",
+    "Fetching",
+    "Storing"
+  ],
+  answer: 0,
+  explanation: "Decoding interprets the fetched instruction and determines the actions to be taken by the CPU."
+},
+{
+  q: "Which process carries out the actual operations or calculations specified by the instruction?",
+  options: [
+    "Decoding",
+    "Execution",
+    "Fetching",
+    "Storing"
+  ],
+  answer: 1,
+  explanation: "Execution performs the operations or calculations specified by the decoded instruction."
+},
+{
+  q: "Which process is responsible for storing the results of the executed instruction?",
+  options: [
+    "Decoding",
+    "Execution",
+    "Fetching",
+    "Storing"
+  ],
+  answer: 3,
+  explanation: "Storing saves the results of the executed instruction back to memory or registers."
+},
+{
+  q: "Which unit of the CPU is responsible for fetching instructions and data from memory?",
+  options: [
+    "Arithmetic Logic Unit (ALU)",
+    "Control Unit (CU)",
+    "Cache Unit",
+    "Register Unit"
+  ],
+  answer: 1,
+  explanation: "The Control Unit fetches instructions and data and coordinates other CPU operations."
+},
+{
+  q: "Which unit of the CPU performs arithmetic and logical operations?",
+  options: [
+    "Arithmetic Logic Unit (ALU)",
+    "Control Unit (CU)",
+    "Cache Unit",
+    "Register Unit"
+  ],
+  answer: 0,
+  explanation: "The ALU performs arithmetic (add, subtract) and logical (AND, OR) operations."
+},
+{
+  q: "Which component of the CPU temporarily stores data and instructions during processing?",
+  options: [
+    "Arithmetic Logic Unit (ALU)",
+    "Control Unit (CU)",
+    "Cache Unit",
+    "Register Unit"
+  ],
+  answer: 3,
+  explanation: "The Register Unit temporarily stores data and instructions during processing."
+},
+{
+  q: "Which component of the CPU controls the flow of data and instructions within the CPU?",
+  options: [
+    "Arithmetic Logic Unit (ALU)",
+    "Control Unit (CU)",
+    "Cache Unit",
+    "Register Unit"
+  ],
+  answer: 1,
+  explanation: "The Control Unit coordinates operations and controls data/instruction flow within the CPU."
+},
+{
+  q: "Which component of the CPU stores frequently accessed data for faster access?",
+  options: [
+    "Arithmetic Logic Unit (ALU)",
+    "Control Unit (CU)",
+    "Cache Unit",
+    "Register Unit"
+  ],
+  answer: 2,
+  explanation: "The Cache Unit stores frequently accessed data closer to the CPU for faster access."
+},
+{
+  q: "Which process is responsible for determining the next instruction to be fetched and executed?",
+  options: [
+    "Decoding",
+    "Execution",
+    "Fetching",
+    "Storing"
+  ],
+  answer: 2,
+  explanation: "The fetching process uses the program counter to determine the next instruction to execute."
+},
+{
+  q: "Which of the following describes the relationship between formal languages, formal grammars, and automata?",
+  options: [
+    "Formal languages are generated by formal grammars, which are recognized by automata.",
+    "Formal languages recognize automata, which are generated by formal grammars.",
+    "Formal grammars generate automata, which recognize formal languages.",
+    "Formal grammars recognize formal languages, which generate automata."
+  ],
+  answer: 0,
+  explanation: "Formal languages are generated by formal grammars, and automata are used to recognize these languages."
+}
+
+
+
+
+
+    
+
+    ],
     
     "2016": [
 
@@ -2894,6 +3608,7 @@ function submitExam() {
     document.getElementById('score-display').style.display = 'block';
     document.getElementById('score-display').textContent = `You scored ${score} out of ${currentExam.length}`;
 }
+
 
 
 
