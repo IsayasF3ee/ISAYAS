@@ -718,7 +718,7 @@ const exams = {
     ],
     answer: 0,
     explanation: "Assigning a float to an int is an example of type conversion or coercion."
-  }
+  },
 
 
 
@@ -2894,6 +2894,7 @@ function submitExam() {
     document.getElementById('score-display').style.display = 'block';
     document.getElementById('score-display').textContent = `You scored ${score} out of ${currentExam.length}`;
 }
+
 
 
 
