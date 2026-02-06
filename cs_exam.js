@@ -1,5 +1,304 @@
 // Exam Data
 const exams = {
+
+"WSU1":[
+
+  {
+    q: "Which of the following sorting algorithms can be used to sort a random linked list with minimum time complexity?",
+    options: [
+      "Merge Sort",
+      "Heap Sort",
+      "Quick Sort",
+      "Insertion Sort"
+    ],
+    answer: 0,
+    explanation: "Merge Sort works efficiently on linked lists and guarantees O(n log n) time complexity."
+  },
+  {
+    q: "Which combinational circuit receives 2^n input and directs it to a single output line?",
+    options: [
+      "Decoder",
+      "Encoder",
+      "Multiplexer",
+      "Flip flop"
+    ],
+    answer: 2,
+    explanation: "A multiplexer selects one of many inputs and forwards it to a single output line."
+  },
+  {
+    q: "Maximum number of elements in the array declaration int x[5][8]; is",
+    options: [
+      "40",
+      "28",
+      "13"
+    ],
+    answer: 0,
+    explanation: "Total elements = rows × columns = 5 × 8 = 40."
+  },
+  {
+    q: "The total number of states required to automate the given regular expression (00)*(11)* is",
+    options: [
+      "3",
+      "5",
+      "4",
+      "6"
+    ],
+    answer: 1,
+    explanation: "The minimal DFA for (00)*(11)* requires 5 states."
+  },
+  {
+    q: "First order logic statements contain:",
+    options: [
+      "Predicate and Preposition",
+      "Subject and an Object",
+      "Predicate and Subject",
+      "None of the above"
+    ],
+    answer: 2,
+    explanation: "First order logic statements consist of a subject and a predicate."
+  },
+  {
+    q: "A language can be generated from simple primitive language in a simple way if and only if",
+    options: [
+      "It is recognized by a device of infinite states",
+      "It takes no auxiliary memory",
+      "All of the mentioned",
+      "None of the mentioned"
+    ],
+    answer: 1,
+    explanation: "Languages generated simply from primitive languages require no auxiliary memory."
+  },
+  {
+    q: "Which of the following is used to display the output in PHP?",
+    options: [
+      "Echo",
+      "Write",
+      "Print",
+      "Both (a) and (c)"
+    ],
+    answer: 3,
+    explanation: "Both echo and print are used to display output in PHP."
+  },
+  {
+    q: "In order to ensure the security of the data/information, we need to ____ the data:",
+    options: [
+      "Encrypt",
+      "Decrypt",
+      "Delete",
+      "None of the above"
+    ],
+    answer: 0,
+    explanation: "Encryption protects data from unauthorized access."
+  },
+  {
+    q: "Which of the following is not a type of database?",
+    options: [
+      "Decentralized",
+      "Distributed",
+      "Hierarchical",
+      "Network"
+    ],
+    answer: 0,
+    explanation: "Decentralized is not considered a standard database type."
+  },
+  {
+    q: "Which of the following statements is false?",
+    options: [
+      "Regular language is the subset of context sensitive language",
+      "Context sensitive language is a subset of context free language",
+      "Context free language is the subset of context sensitive language",
+      "Recursively enumerable language is the super set of regular language"
+    ],
+    answer: 1,
+    explanation: "Context-sensitive languages are more powerful than context-free languages, not a subset."
+  },
+  {
+    q: "Which of the following statements is not true?",
+    options: [
+      "Every language defined by a regular expression can be represented using a DFA",
+      "Regular expression is just another representation for any automata definition",
+      "Every language defined by a regular expression can be represented using NFA with ε-moves",
+      "Every language defined by any of the automata is also defined by a regular expression"
+    ],
+    answer: 0,
+    explanation: "Some regular expressions require conversion steps and are not directly represented as DFA."
+  },
+  {
+    q: "Which AI technique enables computers to understand associations and relationships between objects and events?",
+    options: [
+      "Heuristic Processing",
+      "Relative Symbolism",
+      "Cognitive Science",
+      "Pattern Matching"
+    ],
+    answer: 3,
+    explanation: "Pattern matching helps AI identify relationships and associations."
+  },
+  {
+    q: "Which of the following words correctly summarizes the importance of software design?",
+    options: [
+      "Efficiency",
+      "Quality",
+      "Complexity",
+      "Accuracy"
+    ],
+    answer: 1,
+    explanation: "Good software design ensures overall quality, maintainability, and scalability."
+  },
+  {
+    q: "Function prototyping is used to:",
+    options: [
+      "Describe the return value only",
+      "Describe the parameters",
+      "Introduce the function"
+    ],
+    answer: 1,
+    explanation: "Function prototyping defines the function signature, including parameters and return type."
+  },
+
+
+
+
+
+  {
+  q: "What does PEAS stand for in Artificial Intelligence?",
+  options: [
+    "Peer, Environment, Actuators, Sense",
+    "Performance, Environment, Actuators, Sensors",
+    "Perceiving, Environment, Actuators, Sensors",
+    "None of the above"
+  ],
+  answer: 1,
+  explanation: "PEAS stands for Performance, Environment, Actuators, and Sensors."
+},
+{
+  q: "Which of the following is used in application programs to request data from the database management system?",
+  options: [
+    "Data Manipulation Language",
+    "Data Definition Language",
+    "Data Control Language",
+    "All of the above"
+  ],
+  answer: 0,
+  explanation: "DML is used to retrieve, insert, update, and delete data in a database."
+},
+{
+  q: "Which of the following is the task of lexical analysis?",
+  options: [
+    "To build the uniform symbol table",
+    "To initialize the variables",
+    "To organize the variables in a lexical order",
+    "None of the mentioned"
+  ],
+  answer: 0,
+  explanation: "Lexical analysis builds the symbol table by identifying tokens."
+},
+{
+  q: "Which of the following is the correct way to create an array in PHP?",
+  options: [
+    '$season = array["summer", "winter", "spring", "autumn"];',
+    '$season = array("summer", "winter", "spring", "autumn");',
+    '$season = "summer", "winter", "spring", "autumn";',
+    "All of the above"
+  ],
+  answer: 1,
+  explanation: "In PHP, arrays are created using array() with parentheses."
+},
+{
+  q: "It can be a software program or a hardware device that filters all data packets coming through the internet or a network. It is known as:",
+  options: [
+    "Firewall",
+    "Cookies",
+    "Malware",
+    "Antivirus"
+  ],
+  answer: 0,
+  explanation: "A firewall monitors and controls incoming and outgoing network traffic."
+},
+{
+  q: "Which one of the following can be considered as a class of computer threats?",
+  options: [
+    "DoS Attack",
+    "Phishing",
+    "Soliciting",
+    "Both A and C"
+  ],
+  answer: 0,
+  explanation: "A Denial of Service (DoS) attack is a well-known computer threat."
+},
+{
+  q: "To access the services of the operating system, the interface is provided by the:",
+  options: [
+    "API",
+    "System calls",
+    "Library",
+    "Assembly instructions"
+  ],
+  answer: 1,
+  explanation: "System calls provide an interface between user programs and the OS."
+},
+{
+  q: "What is a database?",
+  options: [
+    "Collection of data without organizing",
+    "Organized collection of information that cannot be accessed or updated",
+    "Organized collection of data that cannot be updated",
+    "Organized collection of data or information that can be accessed, updated, and managed"
+  ],
+  answer: 3,
+  explanation: "A database is an organized collection of data that can be accessed, updated, and managed."
+},
+{
+  q: "To obtain a prefix expression, which tree traversal is used?",
+  options: [
+    "Pre-order traversal",
+    "In-order traversal",
+    "Post-order traversal",
+    "Level-order traversal"
+  ],
+  answer: 0,
+  explanation: "Pre-order traversal produces prefix notation."
+},
+{
+  q: "Which of the following can be used to extract or filter data from a data warehouse?",
+  options: [
+    "Data redundancy",
+    "Data recovery tool",
+    "Data mining",
+    "Both B and C"
+  ],
+  answer: 2,
+  explanation: "Data mining is used to extract useful information from large datasets."
+},
+{
+  q: "What will be the output of the following code segment?\nfor(int n=5; n>0; n--) {\n  cout << n;\n  if(n==3)\n    break;\n}",
+  options: [
+    "543",
+    "54",
+    "53",
+    "5432"
+  ],
+  answer: 0,
+  explanation: "The loop prints 5, 4, 3 and then breaks when n equals 3."
+},
+  
+
+
+
+
+
+
+
+
+    
+
+    ],
+
+
+
+
+    
+    
     "2015": [
         { 
             q: "Which approach is commonly used for query processing in a distributed database system?", 
@@ -3611,6 +3910,7 @@ function submitExam() {
     document.getElementById('score-display').style.display = 'block';
     document.getElementById('score-display').textContent = `You scored ${score} out of ${currentExam.length}`;
 }
+
 
 
 
