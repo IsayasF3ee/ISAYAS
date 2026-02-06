@@ -4,6 +4,207 @@ const exams = {
 "WSU1":[
 
 
+  
+
+{
+  q: "In the CIA Triad, which one of the following is not involved?",
+  options: ["Availability", "Confidentiality", "Authenticity", "Integrity"],
+  answer: 2,
+  explanation: "Authenticity is not part of the CIA triad; the triad includes Confidentiality, Integrity, and Availability."
+},
+{
+  q: "If according to the hypothesis, the result should be positive, but in fact it is negative, then it is known as ___.",
+  options: [
+    "False Negative Hypothesis",
+    "False Positive Hypothesis",
+    "Specialized Hypothesis",
+    "Consistent Hypothesis"
+  ],
+  answer: 1,
+  explanation: "A false positive occurs when a test indicates a positive result incorrectly."
+},
+{
+  q: "Which of the following function is used to set cookie in PHP?",
+  options: ["createcookie()", "makecookie()", "setcookie()", "None of the above"],
+  answer: 2,
+  explanation: "setcookie() is the built-in PHP function used to create cookies."
+},
+{
+  q: "Which of the following refers to stealing one's idea or invention of others and use it for their own benefits?",
+  options: [
+    "Piracy",
+    "Plagiarism",
+    "Intellectual property rights",
+    "All of the above"
+  ],
+  answer: 3,
+  explanation: "All the listed options relate to misuse or theft of intellectual work."
+},
+{
+  q: "Bluetooth is an example of __.",
+  options: [
+    "Personal Area Network",
+    "Local Area Network",
+    "Virtual Private Network",
+    "Wide Area Network"
+  ],
+  answer: 0,
+  explanation: "Bluetooth operates within a short range, making it a PAN."
+},
+{
+  q: "Which of the following command is a type of Data Definition Language command?",
+  options: ["Create", "Update", "Delete", "Merge"],
+  answer: 0,
+  explanation: "CREATE is a DDL command used to define database structures."
+},
+{
+  q: "An AI agent perceives and acts upon the environment using ___.",
+  options: ["Sensors", "Perceiver", "Actuators", "Both a and c"],
+  answer: 3,
+  explanation: "AI agents use sensors to perceive and actuators to act."
+},
+{
+  q: "Which of the following statement(s) about stack data structure is/are NOT correct?",
+  options: [
+    "Linked List are used for implementing Stacks",
+    "Top of the Stack always contain the new node",
+    "Stack is the FIFO data structure",
+    "Null link is present in the last node at the bottom of the stack"
+  ],
+  answer: 2,
+  explanation: "Stack follows LIFO, not FIFO."
+},
+{
+  q: "Given pointer to a node X in a singly linked list. Only one pointer is given, pointer to head node is not given, can we delete the node X?",
+  options: [
+    "Possible if X is not last node",
+    "Possible if X is not first node",
+    "Possible if size of linked list is even",
+    "Possible if size of linked list is odd"
+  ],
+  answer: 0,
+  explanation: "Deletion is possible by copying data from the next node if X is not the last node."
+},
+{
+  q: "Which of the following is the task of lexical analysis?",
+  options: [
+    "To build the uniform symbol table",
+    "To initialize the variables",
+    "To organize the variables in a lexical order",
+    "None of the mentioned"
+  ],
+  answer: 0,
+  explanation: "Lexical analysis builds and maintains the symbol table."
+},
+{
+  q: "What is encapsulation in object oriented programming?",
+  options: [
+    "Combining data members and member functions that operate on them into a single unit",
+    "Combining data members and member functions into a single unit which can operate on any data",
+    "Combining various data members into a single unit",
+    "Combining various member functions into a single unit"
+  ],
+  answer: 0,
+  explanation: "Encapsulation binds data and methods that operate on that data together."
+},
+{
+  q: "Which of the following is generally used for performing tasks like creating the structure of relations, deleting relation?",
+  options: [
+    "DML (Data Manipulation Language)",
+    "Query",
+    "Relational Schema",
+    "DDL (Data Definition Language)"
+  ],
+  answer: 3,
+  explanation: "DDL is used to define and modify database structures."
+},
+{
+  q: "Which one of the following data structures are preferred in database-system implementation?",
+  options: ["AVL tree", "B-tree", "B+ tree", "Splay tree"],
+  answer: 2,
+  explanation: "B+ trees are efficient for disk-based storage systems."
+},
+{
+  q: "Rows of a relation are known as the ___.",
+  options: ["Degree", "Tuples", "Entity", "All of the above"],
+  answer: 3,
+  explanation: "Rows can be referred to as tuples or entities depending on context."
+},
+{
+  q: "___ is the maximum amount of time an algorithm takes to execute a specific set of inputs.",
+  options: [
+    "Running time",
+    "Average case time complexity",
+    "Worst case time complexity",
+    "Best case time complexity"
+  ],
+  answer: 2,
+  explanation: "Worst-case time complexity defines the maximum execution time."
+},
+{
+  q: "In which access should a constructor be defined, so that object of the class can be created in any function?",
+  options: ["Any access specifier will work", "Private", "Public", "Protected"],
+  answer: 2,
+  explanation: "Constructors must be public to allow object creation."
+},
+{
+  q: "It can be a software program or a hardware device that filters all data packets coming through the internet or network. It is known as ___.",
+  options: ["Antivirus", "Firewall", "Cookies", "Malware"],
+  answer: 1,
+  explanation: "A firewall monitors and filters network traffic."
+},
+{
+  q: "The minimum number of transitions to reach the final state for the regular expression {a,b}*{baaa} is:",
+  options: ["4", "5", "6", "3"],
+  answer: 0,
+  explanation: "The string 'baaa' requires 4 transitions."
+},
+{
+  q: "Linked list is considered as an example of ___ type of memory allocation.",
+  options: ["Dynamic", "Static", "Compile time", "Heap"],
+  answer: 0,
+  explanation: "Linked lists use dynamic memory allocation."
+},
+{
+  q: "In computer network nodes are _____.",
+  options: [
+    "The computer that originates the data",
+    "The computer that routes the data",
+    "The computer that terminates the data",
+    "All of the mentioned"
+  ],
+  answer: 3,
+  explanation: "All devices participating in communication are considered nodes."
+},
+{
+  q: "In the case of Zero-address instruction method the operands are stored in _.",
+  options: ["Registers", "Accumulators", "Push down stack", "Cache memory"],
+  answer: 2,
+  explanation: "Zero-address instructions use a stack to store operands."
+},
+{
+  q: "Which of the following statements is not true?",
+  options: [
+    "Every language defined by any automata is also defined by a regular expression",
+    "Every language defined by a regular expression can be represented using a DFA",
+    "Every language defined by a regular expression can be represented using NFA with ε-moves",
+    "Regular expression is just another representation for automata definition"
+  ],
+  answer: 1,
+  explanation: "Not all regular expressions can be directly represented as DFA without conversion."
+},
+{
+  q: "Which of the following can be used to extract or filter the data and information from the data warehouse?",
+  options: [
+    "Data redundancy",
+    "Data recovery tool",
+    "Data mining",
+    "Data inconsistency"
+  ],
+  answer: 2,
+  explanation: "Data mining is used to extract useful patterns and information."
+},
+
 
 
 
@@ -4613,6 +4814,7 @@ function submitExam() {
     document.getElementById('score-display').style.display = 'block';
     document.getElementById('score-display').textContent = `You scored ${score} out of ${currentExam.length}`;
 }
+
 
 
 
