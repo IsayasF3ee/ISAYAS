@@ -462,6 +462,477 @@ const exams = {
         // Add all 103 questions for 2015 exam here in the same format...
     ],
 
+ "2015+1": [
+
+
+  {
+    q: "Which of the following sorting algorithms can be used to sort a random linked list with minimum time complexity?",
+    options: ["Merge Sort", "Heap Sort", "Quick Sort", "Insertion Sort"],
+    answer: 0,
+    explanation: "Merge Sort works efficiently on linked lists and has O(n log n) time complexity."
+  },
+  {
+    q: "Which combinational circuit receives 2^n input lines and directs them to a single output line?",
+    options: ["Decoder", "Encoder", "Multiplexer", "Flip flop"],
+    answer: 2,
+    explanation: "A multiplexer selects one input from multiple inputs and sends it to a single output."
+  },
+  {
+    q: "Maximum number of elements in the array declaration int x[5][8]; is",
+    options: ["40", "28", "13"],
+    answer: 0,
+    explanation: "Total elements = rows × columns = 5 × 8 = 40."
+  },
+  {
+    q: "The total number of states required to automate the regular expression (00)*(11)* is",
+    options: ["3", "5", "4", "6"],
+    answer: 1,
+    explanation: "The minimal DFA for (00)*(11)* requires 5 states."
+  },
+  {
+    q: "First order logic statements contain ______.",
+    options: [
+      "Predicate and Preposition",
+      "Subject and an Object",
+      "Predicate and Subject",
+      "None of the above"
+    ],
+    answer: 2,
+    explanation: "First order logic consists of predicates applied to subjects."
+  },
+  {
+    q: "A language can be generated from simple primitive language in a simple way if and only if",
+    options: [
+      "It is recognized by a device of infinite states",
+      "It takes no auxiliary memory",
+      "All of the mentioned",
+      "None of the mentioned"
+    ],
+    answer: 1,
+    explanation: "Languages generated simply from primitive languages do not require auxiliary memory."
+  },
+  {
+    q: "Which of the following is used to display the output in PHP?",
+    options: ["Echo", "Write", "Print", "Both (a) and (c)"],
+    answer: 3,
+    explanation: "Both echo and print are used to display output in PHP."
+  },
+  {
+    q: "In order to ensure the security of the data/information, we need to ____________ the data.",
+    options: ["Encrypt", "Decrypt", "Delete", "None of the above"],
+    answer: 0,
+    explanation: "Encryption protects data from unauthorized access."
+  },
+  {
+    q: "Which of the following is not a type of database?",
+    options: ["Decentralized", "Distributed", "Hierarchical", "Network"],
+    answer: 0,
+    explanation: "Decentralized is not considered a standard database model."
+  },
+  {
+    q: "Which of the following statement is false?",
+    options: [
+      "Regular language is the subset of context sensitive language",
+      "Context sensitive language is a subset of context free language",
+      "Context free language is the subset of context sensitive language",
+      "Recursively enumerable language is the superset of regular language"
+    ],
+    answer: 1,
+    explanation: "Context-sensitive languages are NOT a subset of context-free languages."
+  },
+  {
+    q: "Which of the following statements is not true?",
+    options: [
+      "Every language defined by a regular expression can be represented using a DFA",
+      "Regular expression is just another representation for any automata definition",
+      "Every language defined by a regular expression can be represented using NFA with ε-moves",
+      "Every language defined by any of the automata is also defined by a regular expression"
+    ],
+    answer: 0,
+    explanation: "Some regular expressions require conversion steps and are not directly represented as DFA."
+  },
+  {
+    q: "Which AI technique enables computers to understand the associations and relationships between objects and events?",
+    options: [
+      "Heuristic Processing",
+      "Relative Symbolism",
+      "Cognitive Science",
+      "Pattern Matching"
+    ],
+    answer: 3,
+    explanation: "Pattern matching helps identify relationships and associations between data."
+  },
+  {
+    q: "Which word correctly summarizes the importance of software design?",
+    options: ["Efficiency", "Quality", "Complexity", "Accuracy"],
+    answer: 1,
+    explanation: "Good software design directly impacts overall software quality."
+  },
+  {
+    q: "Function prototyping is used to",
+    options: [
+      "Describe the return value only",
+      "Describe the parameters",
+      "Introduce the function",
+      "Describe type of arguments"
+    ],
+    answer: 2,
+    explanation: "Function prototypes introduce the function to the compiler before its definition."
+  },
+  {
+    q: "The main memory accommodates ____________",
+    options: ["CPU", "User processes", "Operating system", "All of the mentioned"],
+    answer: 3,
+    explanation: "Main memory holds the OS, user processes, and related data."
+  },
+
+
+
+
+
+
+
+
+
+
+  {
+    q: "The variables which can be accessed by all of the program modules in a computer program are called",
+    options: ["Global variables", "Parameters", "Arguments", "Local variables"],
+    answer: 0,
+    explanation: "Global variables can be accessed from any module of the program."
+  },
+  {
+    q: "In computer networks, nodes are",
+    options: [
+      "The computer that originates the data",
+      "The computer that routes the data",
+      "The computer that terminates the data",
+      "All of the mentioned"
+    ],
+    answer: 3,
+    explanation: "A node can originate, route, or terminate data."
+  },
+  {
+    q: "Which form has a relation that contains information about a single entity?",
+    options: ["5NF", "4NF", "3NF", "2NF"],
+    answer: 1,
+    explanation: "4NF ensures relations contain information about a single entity."
+  },
+  {
+    q: "The operating system is responsible for",
+    options: [
+      "Bad-block recovery",
+      "Booting from disk",
+      "Disk initialization",
+      "All of the mentioned"
+    ],
+    answer: 3,
+    explanation: "All listed tasks are handled by the operating system."
+  },
+  {
+    q: "Which function is used to set a cookie in PHP?",
+    options: ["createcookie()", "makecookie()", "setcookie()", "None of the above"],
+    answer: 2,
+    explanation: "setcookie() is the PHP function used to create cookies."
+  },
+  {
+    q: "If the hypothesis predicts positive but the result is negative, it is known as",
+    options: [
+      "Specialized Hypothesis",
+      "Consistent Hypothesis",
+      "False Negative Hypothesis",
+      "False Positive Hypothesis"
+    ],
+    answer: 3,
+    explanation: "False positive occurs when a positive is predicted but the actual result is negative."
+  },
+  {
+    q: "Which is used for creating and deleting database structures?",
+    options: [
+      "Relational Schema",
+      "Query",
+      "DDL (Data Definition Language)",
+      "DML (Data Manipulation Language)"
+    ],
+    answer: 2,
+    explanation: "DDL defines and modifies database structures."
+  },
+  {
+    q: "The output of the lexical and syntax analyzer is",
+    options: [
+      "Parse stream, parse tree",
+      "Token tree, parse tree",
+      "All of the mentioned",
+      "Token stream, parse tree"
+    ],
+    answer: 3,
+    explanation: "Lexical analyzer produces tokens and syntax analyzer produces parse tree."
+  },
+  {
+    q: "A deadlock avoidance algorithm examines the",
+    options: [
+      "Resources",
+      "System storage state",
+      "Operating system",
+      "Resource allocation state"
+    ],
+    answer: 3,
+    explanation: "Deadlock avoidance ensures no circular wait by checking resource allocation."
+  },
+  {
+    q: "Recursive binary search uses which technique?",
+    options: [
+      "Simple recursion",
+      "Divide and conquer",
+      "Branch and bound",
+      "Dynamic programming"
+    ],
+    answer: 1,
+    explanation: "Binary search divides the problem into smaller subproblems."
+  },
+  {
+    q: "For an effective operating system, when should deadlock be checked?",
+    options: [
+      "Every time a resource request is made at fixed time intervals",
+      "At fixed time intervals",
+      "Every time a resource request is made",
+      "None of the mentioned"
+    ],
+    answer: 0,
+    explanation: "Deadlock detection is performed periodically when resource requests occur."
+  },
+  {
+    q: "Which error is handled by the operating system?",
+    options: [
+      "Lack of paper in printer",
+      "Power failure",
+      "Network connection failure",
+      "All of the mentioned"
+    ],
+    answer: 3,
+    explanation: "The OS handles all hardware and system-level errors."
+  },
+  {
+    q: "The dispatcher in a process scheduler is responsible for",
+    options: [
+      "Assigning ready processes to waiting queue",
+      "Assigning running processes to blocked queue",
+      "Assigning ready processes to CPU",
+      "All of the mentioned"
+    ],
+    answer: 2,
+    explanation: "Dispatcher assigns the CPU to ready processes."
+  },
+  {
+    q: "A device that forwards packets between networks is called",
+    options: ["Router", "Hub", "Firewall", "Bridge"],
+    answer: 0,
+    explanation: "Routers forward packets using routing information."
+  },
+  {
+    q: "Communication channel shared by all machines is found in",
+    options: [
+      "Multicast network",
+      "Unicast network",
+      "Broadcast network",
+      "Anycast network"
+    ],
+    answer: 2,
+    explanation: "Broadcast networks share the communication channel."
+  },
+  {
+    q: "Minimum transitions required for {a,b}*{baaa} to reach final state is",
+    options: ["5", "4", "3", "6"],
+    answer: 1,
+    explanation: "The minimum number of transitions is 4."
+  },
+  {
+    q: "An array is",
+    options: [
+      "Contiguous allocation of memory occupied by similar data types",
+      "Contiguous allocation of memory occupied by different data types",
+      "De-allocation of memory of similar data types",
+      "None"
+    ],
+    answer: 0,
+    explanation: "Arrays store similar data types in contiguous memory locations."
+  },
+  {
+    q: "Network congestion occurs",
+    options: [
+      "In case of transfer failure",
+      "When connection terminates",
+      "When system terminates",
+      "In case of traffic overloading"
+    ],
+    answer: 3,
+    explanation: "Congestion happens when network traffic exceeds capacity."
+  },
+  {
+    q: "Auxiliary memory is",
+    options: [
+      "Memory that communicates with CPU",
+      "A device that provides backup storage",
+      "Fastest memory",
+      "All"
+    ],
+    answer: 1,
+    explanation: "Auxiliary memory is used for secondary/backup storage."
+  },
+  {
+    q: "Linked lists are not suitable for implementing",
+    options: [
+      "Insertion sort",
+      "Binary search",
+      "Radix sort",
+      "Polynomial manipulation"
+    ],
+    answer: 1,
+    explanation: "Binary search requires random access, which linked lists do not support."
+  },
+  {
+    q: "Which does not belong to OOP concepts?",
+    options: [
+      "Data binding",
+      "Message passing",
+      "Data hiding",
+      "Platform independent"
+    ],
+    answer: 3,
+    explanation: "Platform independence is not an OOP concept."
+  },
+  {
+    q: "Which is an incorrect activity in software configuration management?",
+    options: [
+      "Change management",
+      "Version management",
+      "Internship management",
+      "System management"
+    ],
+    answer: 2,
+    explanation: "Internship management is unrelated to software configuration management."
+  },
+  {
+    q: "Which command permanently saves a transaction in a database?",
+    options: ["Commit", "Rollback", "Savepoint", "None"],
+    answer: 0,
+    explanation: "COMMIT makes database changes permanent."
+  },
+  {
+    q: "An AI agent perceives and acts using",
+    options: ["Sensors", "Perceiver", "Actuators", "Both a and c"],
+    answer: 3,
+    explanation: "AI agents use sensors to perceive and actuators to act."
+  },
+  {
+    q: "Database architecture is viewed as",
+    options: ["Three-level", "Two-level", "One-level", "Four-level"],
+    answer: 0,
+    explanation: "Database architecture follows the three-level schema."
+  },
+  {
+    q: "Rows of a relation are called",
+    options: ["Degree", "Tuples", "Entity", "All of the above"],
+    answer: 3,
+    explanation: "Rows are tuples and represent entities in a relation."
+  },
+  {
+    q: "If a process fails, the OS writes error information to",
+    options: [
+      "New file",
+      "Another running process",
+      "Log file",
+      "None"
+    ],
+    answer: 2,
+    explanation: "Error logs are stored in log files."
+  },
+  {
+    q: "Which data structure is preferred in database systems?",
+    options: ["B-tree", "AVL tree", "Splay tree", "B+ tree"],
+    answer: 3,
+    explanation: "B+ trees are optimized for database indexing."
+  },
+  {
+    q: "Which model represents the dynamic behavior of a system?",
+    options: [
+      "Object model",
+      "Context model",
+      "Behavioral model",
+      "Data model"
+    ],
+    answer: 2,
+    explanation: "Behavioral models show how a system behaves over time."
+  },
+  {
+    q: "CPU scheduling is the basis of",
+    options: [
+      "Multiprocessor systems",
+      "Multiprogramming operating systems",
+      "None of the mentioned",
+      "Large memory systems"
+    ],
+    answer: 1,
+    explanation: "CPU scheduling enables multiprogramming."
+  },
+  {
+    q: "The strcpy() function",
+    options: [
+      "Copies one string to another",
+      "Concatenates two strings",
+      "Compares two strings",
+      "Finds string length"
+    ],
+    answer: 0,
+    explanation: "strcpy() copies one string into another."
+  },
+  {
+    q: "Which technique predicts effort using LOC or FP?",
+    options: [
+      "Process-based estimation",
+      "FP-based estimation",
+      "COCOMO",
+      "Both COCOMO and FP-based estimation"
+    ],
+    answer: 3,
+    explanation: "Both methods estimate effort based on size metrics."
+  },
+  {
+    q: "Overall database design is defined using",
+    options: [
+      "Application program",
+      "Data definition language",
+      "Schema",
+      "Source code"
+    ],
+    answer: 2,
+    explanation: "Schema defines the structure of the database."
+  },
+  {
+    q: "Which gives a finite solution for infinite language input?",
+    options: [
+      "Compiler",
+      "Interpreter",
+      "Loader and Linker",
+      "None of the mentioned"
+    ],
+    answer: 0,
+    explanation: "Compilers process infinite language definitions into finite machine code."
+  }
+
+
+
+
+
+
+
+     
+     
+
+
+],
+
+    
     "2016": [
 
         { 
@@ -2158,4 +2629,5 @@ function submitExam() {
     document.getElementById('score-display').style.display = 'block';
     document.getElementById('score-display').textContent = `You scored ${score} out of ${currentExam.length}`;
 }
+
 
