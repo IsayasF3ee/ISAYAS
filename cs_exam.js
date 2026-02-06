@@ -465,6 +465,271 @@ const exams = {
  "2015+1": [
 
 
+
+  {
+    q: "Which parsing technique uses left-to-right, leftmost derivation and is suitable for handling left-recursive grammar rules?",
+    options: [
+      "LL Parsing",
+      "LR Parsing",
+      "Recursive Descent Parsing",
+      "Top-Down Parsing"
+    ],
+    answer: 0,
+    explanation: "LL parsing uses a top-down approach and can handle left-factored grammars efficiently."
+  },
+  {
+    q: "Which of the following is not a top-down parsing algorithm?",
+    options: [
+      "Recursive Descent Parsing",
+      "LL Parsing",
+      "Predictive Parsing",
+      "LR Parsing"
+    ],
+    answer: 3,
+    explanation: "LR parsing is a bottom-up parsing technique, unlike the other top-down algorithms."
+  },
+  {
+    q: "Which parsing technique is more suitable for handling ambiguous grammars?",
+    options: [
+      "LL Parsing",
+      "LR Parsing",
+      "Recursive Descent Parsing",
+      "Top-Down Parsing"
+    ],
+    answer: 1,
+    explanation: "LR parsing can backtrack and explore multiple paths to resolve ambiguities."
+  },
+  {
+    q: "What is the main goal of a compiler?",
+    options: [
+      "Execution of programs",
+      "Translation of programs",
+      "Optimization of programs",
+      "Debugging of programs"
+    ],
+    answer: 1,
+    explanation: "The main goal of a compiler is to translate source code into equivalent target code."
+  },
+  {
+    q: "Which phase of the compiler analyzes the source code to identify the basic syntactic structures?",
+    options: [
+      "Lexical Analysis",
+      "Syntax Analysis",
+      "Semantic Analysis",
+      "Code Generation"
+    ],
+    answer: 1,
+    explanation: "Syntax analysis (parsing) checks if the code conforms to the grammar of the language."
+  },
+  {
+    q: "Which phase of the compiler assigns meaning to syntactic structures and performs type checking?",
+    options: [
+      "Lexical Analysis",
+      "Syntax Analysis",
+      "Semantic Analysis",
+      "Code Generation"
+    ],
+    answer: 2,
+    explanation: "Semantic analysis assigns meaning to syntactic structures and performs type checking."
+  },
+  {
+    q: "Which of the following represents the correct order of compiler phases?",
+    options: [
+      "Code Generation, Semantic Analysis, Lexical Analysis, Syntax Analysis",
+      "Lexical Analysis, Syntax Analysis, Semantic Analysis, Code Generation",
+      "Syntax Analysis, Lexical Analysis, Semantic Analysis, Code Generation",
+      "Semantic Analysis, Syntax Analysis, Lexical Analysis, Code Generation"
+    ],
+    answer: 1,
+    explanation: "Correct order: Lexical Analysis → Syntax Analysis → Semantic Analysis → Code Generation."
+  },
+  {
+    q: "Which data structure is commonly used in symbol tables during the compilation process?",
+    options: [
+      "Stack",
+      "Queue",
+      "Hash Table",
+      "Linked List"
+    ],
+    answer: 2,
+    explanation: "Hash tables provide efficient lookup and retrieval of symbols."
+  },
+  {
+    q: "Which phase of the compiler performs optimization techniques to improve efficiency of the generated code?",
+    options: [
+      "Lexical Analysis",
+      "Syntax Analysis",
+      "Semantic Analysis",
+      "Code Optimization"
+    ],
+    answer: 3,
+    explanation: "Code optimization eliminates redundant instructions, applies loop optimizations, etc."
+  },
+  {
+    q: "Which of the following is not a typical optimization performed by a compiler?",
+    options: [
+      "Constant Folding",
+      "Loop Unrolling",
+      "Dead Code Elimination",
+      "Syntax Analysis"
+    ],
+    answer: 3,
+    explanation: "Syntax analysis is not an optimization; it analyzes the code's syntax."
+  },
+  {
+    q: "Which phase of the compiler generates the target code?",
+    options: [
+      "Lexical Analysis",
+      "Syntax Analysis",
+      "Semantic Analysis",
+      "Code Generation"
+    ],
+    answer: 3,
+    explanation: "Code generation produces machine code, intermediate code, or other executable forms."
+  },
+  {
+    q: "Which of the following is an advantage of using an intermediate representation during compilation?",
+    options: [
+      "Faster compilation speed",
+      "Improved error detection",
+      "Portability across different platforms",
+      "Reduced memory usage"
+    ],
+    answer: 2,
+    explanation: "Intermediate code allows the same code to be translated to multiple target platforms."
+  },
+  {
+    q: "Which phase of the compiler is responsible for error handling and reporting?",
+    options: [
+      "Lexical Analysis",
+      "Syntax Analysis",
+      "Semantic Analysis",
+      "Error Handling"
+    ],
+    answer: 1,
+    explanation: "Syntax analysis detects syntax errors and reports them to the programmer."
+  },
+  {
+    q: "Which of the following is true about syntax-directed translation?",
+    options: [
+      "It only involves the lexical analysis phase.",
+      "It involves generating intermediate code from the parse tree.",
+      "It is concerned with optimization of generated code.",
+      "It is performed during the code generation phase."
+    ],
+    answer: 1,
+    explanation: "Syntax-directed translation associates actions with grammar productions to generate intermediate code."
+  },
+  {
+    q: "What is the purpose of semantic rules in syntax-directed translation?",
+    options: [
+      "To define the syntactic structure of the language.",
+      "To assign types to variables used in the program.",
+      "To perform optimization techniques on intermediate code.",
+      "To define the order of evaluation of expressions."
+    ],
+    answer: 1,
+    explanation: "Semantic rules assign types, perform type checking, and enforce type compatibility."
+  },
+  {
+    q: "Which phase of the compiler is responsible for type checking?",
+    options: [
+      "Lexical Analysis",
+      "Syntax Analysis",
+      "Semantic Analysis",
+      "Code Generation"
+    ],
+    answer: 2,
+    explanation: "Semantic analysis ensures operations are type-correct and manages the symbol table."
+  },
+  {
+    q: "What is type checking in a compiler?",
+    options: [
+      "Verifying the syntax of the program.",
+      "Detecting lexical errors in the program.",
+      "Ensuring operations on variables are well-defined and compatible.",
+      "Generating intermediate code for the program."
+    ],
+    answer: 2,
+    explanation: "Type checking ensures operations on variables are compatible with their declared types."
+  },
+  {
+    q: "Which of the following is an example of a static type checking technique?",
+    options: [
+      "Type inference",
+      "Dynamic typing",
+      "Run-time type checking",
+      "Operator overloading"
+    ],
+    answer: 0,
+    explanation: "Type inference deduces variable types at compile-time without explicit declarations."
+  },
+  {
+    q: "What is the purpose of a type symbol table in a compiler?",
+    options: [
+      "To store the types of variables used in the program.",
+      "To store the names of variables used in the program.",
+      "To store the intermediate code generated during parsing.",
+      "To store the syntax rules of the programming language."
+    ],
+    answer: 0,
+    explanation: "A type symbol table stores type information for variables, functions, etc., for type checking."
+  },
+  {
+    q: "Which of the following is an example of a type error in a program?",
+    options: [
+      "Syntax error in an if-else statement.",
+      "Division of a number by zero.",
+      "Accessing an array element out of bounds.",
+      "Incorrect indentation in the program."
+    ],
+    answer: 1,
+    explanation: "Division by zero is a type error as it violates arithmetic semantics."
+  },
+  {
+    q: "Which of the following is an advantage of using type checking in a compiler?",
+    options: [
+      "Improved program performance.",
+      "Enhanced code optimization.",
+      "Early detection of potential runtime errors.",
+      "Simplified debugging process."
+    ],
+    answer: 2,
+    explanation: "Type checking detects potential runtime errors before execution."
+  },
+  {
+    q: "What is the primary goal of type checking in a compiler?",
+    options: [
+      "To ensure syntactic correctness of the program.",
+      "To generate efficient machine code.",
+      "To enforce programming language rules and constraints.",
+      "To provide support for code reuse through libraries."
+    ],
+    answer: 2,
+    explanation: "Type checking enforces language rules and ensures program correctness regarding types."
+  },
+  {
+    q: "Which of the following is an example of type coercion or type conversion?",
+    options: [
+      "Assigning a floating-point value to an integer variable.",
+      "Assigning a value to an uninitialized variable.",
+      "Declaring a variable without specifying its type.",
+      "Using an undeclared variable in the program."
+    ],
+    answer: 0,
+    explanation: "Assigning a float to an int is an example of type conversion or coercion."
+  }
+
+
+
+
+
+
+     
+
+
+     
+
   {
     q: "Which of the following sorting algorithms can be used to sort a random linked list with minimum time complexity?",
     options: ["Merge Sort", "Heap Sort", "Quick Sort", "Insertion Sort"],
@@ -2629,5 +2894,6 @@ function submitExam() {
     document.getElementById('score-display').style.display = 'block';
     document.getElementById('score-display').textContent = `You scored ${score} out of ${currentExam.length}`;
 }
+
 
 
