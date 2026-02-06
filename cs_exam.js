@@ -3,6 +3,436 @@ const exams = {
 
 "WSU1":[
 
+
+  
+{
+  q: "The recursive versions of binary search use a ___ structure.",
+  options: [
+    "Branch and bound",
+    "Dynamic programming",
+    "Divide and conquer",
+    "Simple recursive"
+  ],
+  answer: 2,
+  explanation: "Binary search repeatedly divides the problem into smaller subproblems, which is the divide and conquer approach."
+},
+{
+  q: "In Operating Systems, which of the following is/are CPU scheduling algorithms?",
+  options: [
+    "Priority",
+    "Round Robin",
+    "Shortest Job First",
+    "All of the mentioned"
+  ],
+  answer: 3,
+  explanation: "Priority, Round Robin, and Shortest Job First are all CPU scheduling algorithms."
+},
+{
+  q: "A deadlock avoidance algorithm dynamically examines the __ to ensure that a circular wait condition can never exist.",
+  options: [
+    "Resources",
+    "Operating system",
+    "System storage state",
+    "Resource allocation state"
+  ],
+  answer: 3,
+  explanation: "Deadlock avoidance checks the current resource allocation state before granting requests."
+},
+{
+  q: "The main memory accommodates ____.",
+  options: [
+    "CPU",
+    "User processes",
+    "Operating system",
+    "All of the mentioned"
+  ],
+  answer: 2,
+  explanation: "The operating system must reside in main memory to manage system resources."
+},
+{
+  q: "Which feature of OOP indicates code reusability?",
+  options: [
+    "Abstraction",
+    "Polymorphism",
+    "Encapsulation",
+    "Inheritance"
+  ],
+  answer: 3,
+  explanation: "Inheritance allows reuse of existing code by deriving new classes."
+},
+{
+  q: "In order to ensure the security of the data/information, we need to ____ the data.",
+  options: [
+    "Encrypt",
+    "Decrypt",
+    "Delete",
+    "None of the above"
+  ],
+  answer: 0,
+  explanation: "Encryption protects data from unauthorized access."
+},
+{
+  q: "Which one of the following is not true?",
+  options: [
+    "Kernel remains in memory during the entire computer session",
+    "Kernel is made of various modules which cannot be loaded in a running operating system",
+    "Kernel is the first part of the operating system to load into memory during booting",
+    "Kernel is the program that constitutes the central core of the operating system"
+  ],
+  answer: 1,
+  explanation: "Modern kernels support loadable modules during runtime."
+},
+{
+  q: "In Wi-Fi Security, which of the following protocol is more used?",
+  options: [
+    "WPA",
+    "WPA2",
+    "WPS",
+    "Both A and C"
+  ],
+  answer: 1,
+  explanation: "WPA2 is the most widely used and secure Wi-Fi security protocol."
+},
+{
+  q: "If a process fails, most operating systems write the error information to a __.",
+  options: [
+    "New file",
+    "Another running process",
+    "Log file",
+    "None of the mentioned"
+  ],
+  answer: 2,
+  explanation: "Operating systems record error details in log files."
+},
+{
+  q: "Which one of the following errors will be handled by the operating system?",
+  options: [
+    "Lack of paper in printer",
+    "Power failure",
+    "Connection failure in the network",
+    "All of the mentioned"
+  ],
+  answer: 3,
+  explanation: "The operating system handles hardware, power, and network-related errors."
+},
+{
+  q: "Which of the following statements for a simple graph is correct?",
+  options: [
+    "Every path is a trail",
+    "Every trail is a path",
+    "Every trail is a path as well as every path is a trail",
+    "Path and trail have no relation"
+  ],
+  answer: 0,
+  explanation: "A path is a trail with no repeated vertices, so every path is a trail."
+},
+{
+  q: "The string function strcpy",
+  options: [
+    "Concatenates two strings",
+    "Copies one string over the other",
+    "Compares two strings",
+    "Finds the length of a string"
+  ],
+  answer: 1,
+  explanation: "strcpy copies the contents of one string into another."
+},
+{
+  q: "The agile software development model is built based on __.",
+  options: [
+    "Linear development",
+    "Incremental development",
+    "Iterative development",
+    "Both incremental and iterative development"
+  ],
+  answer: 3,
+  explanation: "Agile follows both incremental and iterative development approaches."
+},
+
+
+
+  
+{
+  q: "Function of central processing unit is/are:",
+  options: [
+    "Detecting any errors",
+    "Interpreting and executing machine level instructions",
+    "Controlling data transfer",
+    "All"
+  ],
+  answer: 3,
+  explanation: "The CPU interprets and executes instructions, controls data flow, and manages processing tasks."
+},
+{
+  q: "The operating system is responsible for:",
+  options: [
+    "Bad-block recovery",
+    "Booting from disk",
+    "Disk initialization",
+    "All of the mentioned"
+  ],
+  answer: 3,
+  explanation: "The operating system manages booting, disk initialization, and bad-block recovery."
+},
+{
+  q: "What kind of linked list is best to answer questions like “What is the item at position n?”",
+  options: [
+    "Singly linked list",
+    "Doubly linked list",
+    "Circular linked list",
+    "Array implementation of linked list"
+  ],
+  answer: 3,
+  explanation: "Array implementation allows direct indexed access, making position-based queries efficient."
+},
+{
+  q: "Which of the following layers is an addition to OSI model when compared with TCP/IP model?",
+  options: [
+    "Application layer",
+    "Presentation layer",
+    "Session layer",
+    "Session and Presentation layer"
+  ],
+  answer: 3,
+  explanation: "The OSI model includes Session and Presentation layers that are not separate in TCP/IP."
+},
+{
+  q: "Lexemes can be referred to as:",
+  options: [
+    "Elements of lexicography",
+    "Sequence of alphanumeric characters in a token",
+    "Lexical errors",
+    "None of the mentioned"
+  ],
+  answer: 1,
+  explanation: "A lexeme is the sequence of characters that forms a token."
+},
+{
+  q: "Which method of the Class.class is used to determine the name of a class represented by the class object as a String?",
+  options: [
+    "getClass()",
+    "intern()",
+    "getName()",
+    "toString()"
+  ],
+  answer: 2,
+  explanation: "The getName() method returns the class name as a String."
+},
+{
+  q: "The ___ model helps in representing the system's dynamic behavior.",
+  options: [
+    "Object Model",
+    "Context Model",
+    "Behavioral Model",
+    "Data Model"
+  ],
+  answer: 2,
+  explanation: "Behavioral models describe how a system behaves over time."
+},
+{
+  q: "Which of the following commands is used to save any transaction permanently into the database?",
+  options: [
+    "Commit",
+    "Rollback",
+    "Savepoint",
+    "None of the above"
+  ],
+  answer: 0,
+  explanation: "COMMIT permanently saves all changes made during the transaction."
+},
+{
+  q: "Which type of shift instruction is used to divide a signed number by two?",
+  options: [
+    "Logical right shift",
+    "Arithmetic right shift",
+    "Logical left shift",
+    "Arithmetic left shift"
+  ],
+  answer: 1,
+  explanation: "Arithmetic right shift preserves the sign bit while dividing by two."
+},
+{
+  q: "Which of the following word correctly summarizes the importance of software design?",
+  options: [
+    "Quality",
+    "Complexity",
+    "Efficiency",
+    "Accuracy"
+  ],
+  answer: 0,
+  explanation: "Good software design directly impacts overall software quality."
+},
+{
+  q: "What is the result of the following Java program?",
+  options: [
+    "It prints A and B with a delay",
+    "It only prints A and exits",
+    "It only prints B and exits",
+    "A will be printed, and then an exception is thrown"
+  ],
+  answer: 3,
+  explanation: "Calling wait() without owning the monitor causes IllegalMonitorStateException after printing A."
+},
+{
+  q: "To obtain a prefix expression, which of the tree traversals is used?",
+  options: [
+    "Level-order traversal",
+    "Pre-order traversal",
+    "Post-order traversal",
+    "In-order traversal"
+  ],
+  answer: 1,
+  explanation: "Prefix expressions are obtained using pre-order traversal."
+},
+{
+  q: "RR* can be expressed in which of the forms:",
+  options: [
+    "R+",
+    "R-",
+    "R+ ∪ R-",
+    "R"
+  ],
+  answer: 0,
+  explanation: "RR* represents one or more occurrences of R, which is R+."
+},
+
+
+
+
+
+
+  
+
+{
+  q: "The output of the lexical and syntax analyzer can be stated as:",
+  options: [
+    "parse stream, parse tree",
+    "token tree, parse tree",
+    "token stream, parse tree",
+    "all of the mentioned"
+  ],
+  answer: 2,
+  explanation: "Lexical analysis produces a token stream, and syntax analysis produces a parse tree."
+},
+{
+  q: "Which AI technique enables computers to understand the associations and relationships between objects and events?",
+  options: [
+    "Heuristic Processing",
+    "Cognitive Science",
+    "Relative Symbolism",
+    "Pattern Matching"
+  ],
+  answer: 3,
+  explanation: "Pattern matching helps AI recognize relationships and associations between objects and events."
+},
+{
+  q: "For an effective operating system, when should deadlock be checked?",
+  options: [
+    "Every time a resource request is made at fixed time intervals",
+    "At fixed time intervals",
+    "Every time a resource request is made",
+    "None of the mentioned"
+  ],
+  answer: 0,
+  explanation: "Deadlock detection is typically performed at fixed intervals or during resource requests."
+},
+{
+  q: "Linked lists are not suitable for the implementation of:",
+  options: [
+    "Insertion sort",
+    "Radix sort",
+    "Polynomial manipulation",
+    "Binary search"
+  ],
+  answer: 3,
+  explanation: "Binary search requires random access, which linked lists do not support."
+},
+{
+  q: "Which of the following is the container for <tr>, <th>, and <td>?",
+  options: [
+    "<data>",
+    "<table>",
+    "<group>",
+    "All of the above"
+  ],
+  answer: 1,
+  explanation: "<table> is the main container element for table rows and cells in HTML."
+},
+{
+  q: "Which of the following statement is false?",
+  options: [
+    "Context free language is the subset of context sensitive language",
+    "Regular language is the subset of context sensitive language",
+    "Recursively enumerable language is the super set of regular language",
+    "Context sensitive language is a subset of context free language"
+  ],
+  answer: 3,
+  explanation: "Context-sensitive languages are more powerful than context-free languages, not subsets."
+},
+{
+  q: "Which of the following sorting algorithms can be used to sort a random linked list with minimum time complexity?",
+  options: [
+    "Insertion Sort",
+    "Merge Sort",
+    "Quick Sort",
+    "Heap Sort"
+  ],
+  answer: 1,
+  explanation: "Merge sort is efficient for linked lists and works in O(n log n) time."
+},
+{
+  q: "Communication channel is shared by all the machines on the network in:",
+  options: [
+    "Broadcast network",
+    "Unicast network",
+    "Multicast network",
+    "Anycast network"
+  ],
+  answer: 0,
+  explanation: "In a broadcast network, the communication channel is shared by all nodes."
+},
+{
+  q: "What is the number of edges present in a complete graph having n vertices?",
+  options: [
+    "(n*(n+1))/2",
+    "(n*(n-1))/2",
+    "n",
+    "Information given is insufficient"
+  ],
+  answer: 1,
+  explanation: "A complete graph has n(n−1)/2 edges."
+},
+{
+  q: "Network congestion occurs:",
+  options: [
+    "In case of traffic overloading",
+    "When a system terminates",
+    "When connection between two nodes terminates",
+    "In case of transfer failure"
+  ],
+  answer: 0,
+  explanation: "Network congestion happens when too much traffic overloads the network."
+},
+{
+  q: "Which of the following is an incorrect activity for the configuration management of a software system?",
+  options: [
+    "Change management",
+    "System management",
+    "Internship management",
+    "Version management"
+  ],
+  answer: 2,
+  explanation: "Internship management is unrelated to software configuration management."
+},
+
+
+
+
+
+
+
+  
+
   {
     q: "Which of the following sorting algorithms can be used to sort a random linked list with minimum time complexity?",
     options: [
@@ -3910,6 +4340,7 @@ function submitExam() {
     document.getElementById('score-display').style.display = 'block';
     document.getElementById('score-display').textContent = `You scored ${score} out of ${currentExam.length}`;
 }
+
 
 
 
