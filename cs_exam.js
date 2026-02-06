@@ -1196,7 +1196,10 @@ const exams = {
 
 
 ],
-"2015+2"[
+
+
+    
+"2015+2": [
 
   {
     q: "Which of the following is a common way of communicating with I/O devices?",
@@ -3608,6 +3611,7 @@ function submitExam() {
     document.getElementById('score-display').style.display = 'block';
     document.getElementById('score-display').textContent = `You scored ${score} out of ${currentExam.length}`;
 }
+
 
 
 
