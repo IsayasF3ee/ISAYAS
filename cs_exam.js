@@ -1,6 +1,852 @@
 // Exam Data
 const exams = {
 
+"AMBO":[
+
+  
+{
+  q: "What is a client-server system in web programming?",
+  options: [
+    "A system where the client and server are the same machine",
+    "A system where the client and server are different machines and communicate over a network",
+    "A system where the client and server are different browsers on the same machine",
+    "A system where the client and server are different web pages on the same website"
+  ],
+  answer: 1
+},
+{
+  q: "Which protocol is commonly used for communication between a web client and server?",
+  options: ["HTTP", "FTP", "TCP/IP", "SMTP"],
+  answer: 0
+},
+{
+  q: "Which HTTP method is used to retrieve a resource from a server?",
+  options: ["GET", "POST", "PUT", "DELETE"],
+  answer: 0
+},
+{
+  q: "Which HTTP method is used to send data to a server for processing?",
+  options: ["GET", "POST", "PUT", "DELETE"],
+  answer: 1
+},
+{
+  q: "Which HTTP status code indicates a successful request?",
+  options: ["200", "300", "400", "500"],
+  answer: 0
+},
+{
+  q: "Which HTTP status code indicates that a resource was not found?",
+  options: ["200", "300", "400", "404"],
+  answer: 3
+},
+{
+  q: "What does concurrency mean in a client-server system?",
+  options: [
+    "Server handling multiple clients at the same time",
+    "Client handling multiple servers",
+    "Server handling one client only",
+    "Client handling one request at a time"
+  ],
+  answer: 0
+},
+{
+  q: "What is a race condition?",
+  options: [
+    "Clients competing to connect to a server",
+    "Servers competing to answer requests",
+    "Multiple processes accessing shared resources unpredictably",
+    "Clients sending duplicate requests"
+  ],
+  answer: 2
+},
+{
+  q: "Which technique is commonly used to prevent race conditions?",
+  options: ["Mutex locks", "Spinlocks", "Semaphores", "Message queues"],
+  answer: 0
+},
+{
+  q: "What is a callback function?",
+  options: [
+    "A function called by the server to notify the client",
+    "A function called by the client to request data",
+    "A function handling concurrent requests",
+    "A function synchronizing client and server"
+  ],
+  answer: 0
+},
+{
+  q: "Which protocol supports real-time asynchronous communication?",
+  options: ["HTTP", "FTP", "TCP/IP", "WebSocket"],
+  answer: 3
+},
+{
+  q: "What is long polling?",
+  options: [
+    "Server continuously sends updates",
+    "Client continuously sends requests",
+    "Server holds request until data is available",
+    "Client holds response until server updates"
+  ],
+  answer: 2
+},
+{
+  q: "Which language is commonly used for client-side scripting?",
+  options: ["HTML", "CSS", "JavaScript", "PHP"],
+  answer: 2
+},
+{
+  q: "Which protocol is used for secure client-server communication?",
+  options: ["HTTP", "FTP", "TCP/IP", "HTTPS"],
+  answer: 3
+},
+{
+  q: "What is the role of a load balancer?",
+  options: [
+    "Balance load between clients",
+    "Balance load between servers",
+    "Balance load between client and server",
+    "Balance network protocols"
+  ],
+  answer: 1
+},
+{
+  q: "Which mechanism is commonly used for session management?",
+  options: ["Cookies", "HTML forms", "URL parameters", "Server caching"],
+  answer: 0
+},
+{
+  q: "What does AJAX stand for?",
+  options: [
+    "Advanced Java XML",
+    "Asynchronous Java and XML",
+    "Asynchronous JavaScript and XML",
+    "Advanced JavaScript Exchange"
+  ],
+  answer: 2
+},
+{
+  q: "What is a RESTful API?",
+  options: [
+    "An API for real-time communication",
+    "An API using REST architecture",
+    "An API for server-only communication",
+    "An API for database management"
+  ],
+  answer: 1
+},
+{
+  q: "What is server-side caching?",
+  options: [
+    "Storing client data on the server",
+    "Storing server data on the client",
+    "Storing frequently accessed data in memory",
+    "Using a separate cache server"
+  ],
+  answer: 2
+},
+
+
+  
+
+  {
+    q: "Which CSS property is used to control the space inside the border of an element in a web page?",
+    options: ["color", "font-size", "margin", "padding"],
+    answer: 3
+  },
+  {
+    q: "Which web technology is commonly used for managing the content of information-rich websites?",
+    options: ["HTML", "CSS", "JavaScript", "Content Management System (CMS)"],
+    answer: 3
+  },
+  {
+    q: "What is the purpose of a database in web programming?",
+    options: [
+      "To control the visual appearance of web pages",
+      "To handle server-side processing and database interactions",
+      "To specify the structure and content of web pages",
+      "To add interactivity and dynamic behavior to web pages"
+    ],
+    answer: 1
+  },
+  {
+    q: "Which SQL statement is used to retrieve data from a database?",
+    options: ["INSERT INTO", "UPDATE", "DELETE FROM", "SELECT"],
+    answer: 3
+  },
+  {
+    q: "Which programming language is commonly used for server-side scripting in web programming?",
+    options: ["HTML", "CSS", "JavaScript", "PHP"],
+    answer: 3
+  },
+  {
+    q: "Which HTML form element is used to create a text input field?",
+    options: [
+      "<input type='text'>",
+      "<input type='checkbox'>",
+      "<input type='radio'>",
+      "<input type='submit'>"
+    ],
+    answer: 0
+  },
+  {
+    q: "Which HTML form element is used to create a checkbox?",
+    options: [
+      "<input type='text'>",
+      "<input type='checkbox'>",
+      "<input type='radio'>",
+      "<input type='submit'>"
+    ],
+    answer: 1
+  },
+  {
+    q: "Which HTML form element is used to create a radio button?",
+    options: [
+      "<input type='text'>",
+      "<input type='checkbox'>",
+      "<input type='radio'>",
+      "<input type='submit'>"
+    ],
+    answer: 2
+  },
+  {
+    q: "Which HTML form element is used to create a button that submits a form?",
+    options: [
+      "<input type='text'>",
+      "<input type='checkbox'>",
+      "<input type='radio'>",
+      "<input type='submit'>"
+    ],
+    answer: 3
+  },
+  {
+    q: "Which client-side technique is commonly used to validate form input before submitting it to the server?",
+    options: ["HTML", "CSS", "JavaScript", "PHP"],
+    answer: 2
+  }
+
+
+
+
+
+
+  {
+    q: "Which CSS property is used to control the space inside the border of an element in a web page?",
+    options: ["color", "font-size", "margin", "padding"],
+    answer: 3
+  },
+  {
+    q: "Which web technology is commonly used for managing the content of information-rich websites?",
+    options: ["HTML", "CSS", "JavaScript", "Content Management System (CMS)"],
+    answer: 3
+  },
+  {
+    q: "What is the purpose of a database in web programming?",
+    options: [
+      "To control the visual appearance of web pages",
+      "To handle server-side processing and database interactions",
+      "To specify the structure and content of web pages",
+      "To add interactivity and dynamic behavior to web pages"
+    ],
+    answer: 1
+  },
+  {
+    q: "Which SQL statement is used to retrieve data from a database?",
+    options: ["INSERT INTO", "UPDATE", "DELETE FROM", "SELECT"],
+    answer: 3
+  },
+  {
+    q: "Which programming language is commonly used for server-side scripting in web programming?",
+    options: ["HTML", "CSS", "JavaScript", "PHP"],
+    answer: 3
+  },
+  {
+    q: "Which HTML form element is used to create a text input field?",
+    options: [
+      "<input type='text'>",
+      "<input type='checkbox'>",
+      "<input type='radio'>",
+      "<input type='submit'>"
+    ],
+    answer: 0
+  },
+  {
+    q: "Which HTML form element is used to create a checkbox?",
+    options: [
+      "<input type='text'>",
+      "<input type='checkbox'>",
+      "<input type='radio'>",
+      "<input type='submit'>"
+    ],
+    answer: 1
+  },
+  {
+    q: "Which HTML form element is used to create a radio button?",
+    options: [
+      "<input type='text'>",
+      "<input type='checkbox'>",
+      "<input type='radio'>",
+      "<input type='submit'>"
+    ],
+    answer: 2
+  },
+  {
+    q: "Which HTML form element is used to create a button that submits a form?",
+    options: [
+      "<input type='text'>",
+      "<input type='checkbox'>",
+      "<input type='radio'>",
+      "<input type='submit'>"
+    ],
+    answer: 3
+  },
+  {
+    q: "Which client-side technique is commonly used to validate form input before submitting it to the server?",
+    options: ["HTML", "CSS", "JavaScript", "PHP"],
+    answer: 2
+  },
+  {
+    q: "What is a client-server system in web programming?",
+    options: [
+      "A system where the client and server are the same machine",
+      "A system where the client and server are different machines and communicate over a network",
+      "A system where the client and server are different browsers on the same machine",
+      "A system where the client and server are different web pages on the same website"
+    ],
+    answer: 1
+  },
+  {
+    q: "Which protocol is commonly used for communication between a web client and server?",
+    options: ["HTTP", "FTP", "TCP/IP", "SMTP"],
+    answer: 0
+  },
+  {
+    q: "Which HTTP method is used to retrieve a resource from a server?",
+    options: ["GET", "POST", "PUT", "DELETE"],
+    answer: 0
+  },
+  {
+    q: "Which HTTP method is used to send data to a server for processing?",
+    options: ["GET", "POST", "PUT", "DELETE"],
+    answer: 1
+  },
+  {
+    q: "Which HTTP status code indicates a successful request?",
+    options: ["200", "300", "400", "500"],
+    answer: 0
+  },
+  {
+    q: "Which HTTP status code indicates that the requested resource is not found?",
+    options: ["200", "300", "400", "404"],
+    answer: 3
+  },
+  {
+    q: "What is concurrency in client-server systems?",
+    options: [
+      "The ability of the server to handle multiple clients simultaneously",
+      "The ability of the client to handle multiple servers simultaneously",
+      "The ability of the server to handle multiple requests from one client",
+      "The ability of the client to handle multiple requests to one server"
+    ],
+    answer: 0
+  },
+  {
+    q: "What is a race condition in concurrency?",
+    options: [
+      "Clients competing to connect to a server",
+      "Servers competing to respond",
+      "Multiple processes accessing shared resources unpredictably",
+      "Duplicate client requests"
+    ],
+    answer: 2
+  },
+  {
+    q: "Which synchronization technique is commonly used to prevent race conditions?",
+    options: ["Mutex locks", "Spinlocks", "Semaphores", "Message queues"],
+    answer: 0
+  },
+  {
+    q: "What is a callback function in client-server systems?",
+    options: [
+      "A function called by the server to notify the client of completion",
+      "A function called by the client to request operations",
+      "A function to handle concurrency",
+      "A synchronization function"
+    ],
+    answer: 0
+  }
+
+
+
+
+  
+  ],
+
+
+
+
+
+
+
+
+  
+
+"ADAMA":[
+
+
+  {
+    q: "Which phase of the software development life cycle is responsible for gathering and analyzing user requirements?",
+    options: ["Analysis", "Design", "Development", "Testing"],
+    answer: 0
+  },
+  {
+    q: "Which design principle suggests that software components should have a single, well-defined responsibility?",
+    options: ["DRY principle", "SOLID principle", "KISS principle", "YAGNI principle"],
+    answer: 1
+  },
+  {
+    q: "Which of the following is an agile development methodology?",
+    options: ["Waterfall model", "Scrum", "V-model", "Spiral model"],
+    answer: 1
+  },
+  {
+    q: "Which software development approach involves breaking down a project into small, deliverable increments?",
+    options: ["Waterfall model", "Agile methodology", "Prototype model", "Spiral model"],
+    answer: 1
+  },
+  {
+    q: "Which software testing technique focuses on finding defects without knowing internal structure?",
+    options: ["White-box testing", "Black-box testing", "Integration testing", "System testing"],
+    answer: 1
+  },
+  {
+    q: "Which diagram visualizes the behavior of a system over time?",
+    options: ["Use case diagram", "Class diagram", "Sequence diagram", "State machine diagram"],
+    answer: 2
+  },
+  {
+    q: "Which methodology promotes adaptive planning and continuous improvement?",
+    options: ["Waterfall model", "Agile methodology", "V-model", "Spiral model"],
+    answer: 1
+  },
+  {
+    q: "Which technique represents the flow of activities and decisions?",
+    options: ["Use case modeling", "Activity diagrams", "State machine diagrams", "Component diagrams"],
+    answer: 1
+  },
+  {
+    q: "Which approach builds a working version early?",
+    options: ["Waterfall model", "Agile methodology", "Prototype model", "Spiral model"],
+    answer: 2
+  },
+  {
+    q: "Which testing focuses on interaction between modules?",
+    options: ["Unit testing", "Integration testing", "System testing", "Regression testing"],
+    answer: 1
+  },
+  {
+    q: "Which SOLID principle says depend on abstractions?",
+    options: ["DRY", "SOLID", "KISS", "YAGNI"],
+    answer: 1
+  },
+  {
+    q: "Which model follows a linear sequential flow?",
+    options: ["Waterfall model", "Agile methodology", "Prototype model", "Spiral model"],
+    answer: 0
+  },
+  {
+    q: "Which technique estimates software size and complexity?",
+    options: ["Use case modeling", "Storyboarding", "Function point analysis", "Pair programming"],
+    answer: 2
+  },
+  {
+    q: "Which tool manages issues and tasks?",
+    options: ["Git", "Jira", "Jenkins", "Docker"],
+    answer: 1
+  },
+  {
+    q: "Which SOLID principle says open for extension, closed for modification?",
+    options: ["DRY", "SOLID", "KISS", "YAGNI"],
+    answer: 1
+  },
+  {
+    q: "Which diagram shows static structure?",
+    options: ["Use case diagram", "Class diagram", "Sequence diagram", "State machine diagram"],
+    answer: 1
+  },
+  {
+    q: "Which methodology emphasizes frequent communication?",
+    options: ["Waterfall", "Agile", "V-model", "Spiral"],
+    answer: 1
+  },
+  {
+    q: "Which technique documents user requirements?",
+    options: ["Use case modeling", "Storyboarding", "Wireframing", "Pair programming"],
+    answer: 0
+  },
+  {
+    q: "Which testing retests modified parts?",
+    options: ["Unit", "Integration", "Regression", "System"],
+    answer: 2
+  },
+  {
+    q: "Which tool packages apps into containers?",
+    options: ["Git", "Jira", "Jenkins", "Docker"],
+    answer: 3
+  },
+  {
+    q: "What is the primary goal of software design?",
+    options: [
+      "Create UI",
+      "Optimize performance",
+      "Translate requirements into a plan",
+      "Develop components"
+    ],
+    answer: 2
+  },
+  {
+    q: "Which paradigm is based on objects?",
+    options: ["Functional", "Procedural", "Object-oriented", "Event-driven"],
+    answer: 2
+  },
+  {
+    q: "What is the purpose of version control?",
+    options: ["Manage schedules", "Collaborate", "Track code changes", "Automate testing"],
+    answer: 2
+  },
+  {
+    q: "What is modularization used for?",
+    options: ["Readability", "Memory management", "Reuse and maintenance", "Reduce bugs"],
+    answer: 2
+  },
+  {
+    q: "Which design principle supports single responsibility?",
+    options: ["Encapsulation", "Inheritance", "Polymorphism", "SRP"],
+    answer: 3
+  },
+  {
+    q: "Which pattern ensures one instance?",
+    options: ["Singleton", "Factory", "Observer", "Decorator"],
+    answer: 0
+  },
+  {
+    q: "Which testing checks full system?",
+    options: ["Unit", "Integration", "System", "Regression"],
+    answer: 2
+  },
+  {
+    q: "What is refactoring for?",
+    options: ["Add features", "Improve performance", "Improve maintainability", "Fix bugs"],
+    answer: 2
+  },
+  {
+    q: "What is a use case?",
+    options: ["UI design", "Installation steps", "Sequence of interactions", "Component diagram"],
+    answer: 2
+  },
+  {
+    q: "What is an actor?",
+    options: ["System component", "User or system", "Diagram flow", "User role only"],
+    answer: 1
+  },
+  {
+    q: "Purpose of include relationship?",
+    options: ["Reuse steps", "Optional steps", "Extend behavior", "Actor relation"],
+    answer: 0
+  },
+  {
+    q: "Purpose of extend relationship?",
+    options: ["Reuse", "Optional behavior", "Extend base use case", "Actor link"],
+    answer: 2
+  },
+  {
+    q: "Which diagram shows actors and use cases?",
+    options: ["Class", "Use case", "Activity", "Sequence"],
+    answer: 1
+  },
+  {
+    q: "Primary goal of use case modeling?",
+    options: ["Architecture", "User requirements", "UI design", "Implementation"],
+    answer: 1
+  },
+
+  
+
+
+  {
+    q: "What is the primary markup language used for structuring content on the web?",
+    options: ["HTML", "CSS", "JavaScript", "PHP"],
+    answer: 0
+  },
+  {
+    q: "What is the purpose of CSS in web development?",
+    options: [
+      "Define structure of pages",
+      "Add interactivity",
+      "Control visual appearance",
+      "Handle server-side processing"
+    ],
+    answer: 2
+  },
+  {
+    q: "Which programming language is primarily used for client-side scripting?",
+    options: ["HTML", "CSS", "JavaScript", "PHP"],
+    answer: 2
+  },
+  {
+    q: "Which protocol is used for transferring data over the web?",
+    options: ["HTTP", "FTP", "TCP/IP", "SMTP"],
+    answer: 0
+  },
+  {
+    q: "What is the purpose of a web server?",
+    options: [
+      "Store and manage website files",
+      "Handle client-side scripting",
+      "Control page appearance",
+      "Ensure secure transmission"
+    ],
+    answer: 0
+  },
+  {
+    q: "Which is a popular open-source DBMS used in web development?",
+    options: ["MySQL", "Oracle", "SQL Server", "MongoDB"],
+    answer: 0
+  },
+  {
+    q: "What is the purpose of cookies?",
+    options: [
+      "Store user preferences",
+      "Control appearance",
+      "Handle scripting",
+      "Secure transmission"
+    ],
+    answer: 0
+  },
+  {
+    q: "Which language is used for server-side scripting?",
+    options: ["HTML", "CSS", "JavaScript", "PHP"],
+    answer: 3
+  },
+  {
+    q: "What is the purpose of a framework?",
+    options: [
+      "Secure transmission",
+      "Control appearance",
+      "Provide structure for apps",
+      "Handle scripting"
+    ],
+    answer: 2
+  },
+  {
+    q: "Which is used for scalable and high-performance web apps?",
+    options: ["HTML", "CSS", "JavaScript", "Node.js"],
+    answer: 3
+  },
+  {
+    q: "What is the purpose of AJAX?",
+    options: [
+      "Control appearance",
+      "Handle scripting",
+      "Secure transmission",
+      "Asynchronous client-server communication"
+    ],
+    answer: 3
+  },
+  {
+    q: "Which format is commonly used for data interchange?",
+    options: ["HTML", "CSS", "JSON", "XML"],
+    answer: 2
+  },
+  {
+    q: "What is the purpose of a CMS?",
+    options: [
+      "Store files",
+      "Control appearance",
+      "Handle scripting",
+      "Manage website content"
+    ],
+    answer: 3
+  },
+  {
+    q: "Which technique improves performance by storing frequently accessed data?",
+    options: ["Compression", "Minification", "Caching", "Encryption"],
+    answer: 2
+  },
+  {
+    q: "Which protocol ensures secure communication?",
+    options: ["HTTP", "FTP", "TCP/IP", "HTTPS"],
+    answer: 3
+  },
+  {
+    q: "What is the purpose of a RESTful API?",
+    options: [
+      "Control appearance",
+      "Handle scripting",
+      "Secure transmission",
+      "Standardized resource access"
+    ],
+    answer: 3
+  },
+  {
+    q: "What is the purpose of responsive web design?",
+    options: [
+      "Control appearance",
+      "Handle scripting",
+      "Secure transmission",
+      "Adapt to different devices"
+    ],
+    answer: 3
+  },
+  {
+    q: "What is the purpose of version control systems?",
+    options: [
+      "Control appearance",
+      "Handle scripting",
+      "Secure transmission",
+      "Track code changes"
+    ],
+    answer: 3
+  },
+  {
+    q: "What does SEO stand for?",
+    options: [
+      "Accessibility",
+      "Usability",
+      "Search Engine Optimization",
+      "Performance optimization"
+    ],
+    answer: 2
+  },
+  {
+    q: "Which technique protects against XSS and SQL injection?",
+    options: [
+      "Encryption",
+      "Authentication",
+      "Authorization",
+      "Web security testing"
+    ],
+    answer: 3
+  },
+  {
+    q: "Which server-side language is used in ASP.NET?",
+    options: ["Python", "Ruby", "C#", "Java"],
+    answer: 2
+  },
+  {
+    q: "What is the purpose of server-side scripting?",
+    options: [
+      "Control appearance",
+      "Client-side interaction",
+      "Generate dynamic content",
+      "Secure transmission"
+    ],
+    answer: 2
+  },
+  {
+    q: "Which client-side language is supported by all browsers?",
+    options: ["HTML", "CSS", "JavaScript", "PHP"],
+    answer: 2
+  },
+  {
+    q: "Which client-side language manipulates the DOM?",
+    options: ["HTML", "CSS", "JavaScript", "PHP"],
+    answer: 2
+  },
+  {
+    q: "Which technique loads content without full reload?",
+    options: ["AJAX", "JSON", "XML", "Bootstrap"],
+    answer: 0
+  },
+  {
+    q: "Which library is used for interactive UI?",
+    options: ["jQuery", "React", "Angular", "Vue"],
+    answer: 1
+  },
+  {
+    q: "Which technique allows real-time communication?",
+    options: ["AJAX", "JSON", "WebSockets", "REST API"],
+    answer: 2
+  },
+  {
+    q: "Which browser storage stores data locally?",
+    options: ["Cookies", "Local Storage", "Session Storage", "IndexedDB"],
+    answer: 1
+  },
+  {
+    q: "Which technique reduces file size?",
+    options: ["Compression", "Caching", "Minification", "Encryption"],
+    answer: 2
+  },
+  {
+    q: "Which technique handles mouse and keyboard actions?",
+    options: ["Event handling", "Validation", "Responsive design", "Compatibility"],
+    answer: 0
+  },
+  {
+    q: "Which technique ensures correct display on devices?",
+    options: ["Event handling", "Validation", "Responsive design", "Compatibility"],
+    answer: 2
+  },
+  {
+    q: "Which HTML element creates a heading?",
+    options: ["<p>", "<div>", "<h1>", "<a>"],
+    answer: 2
+  },
+  {
+    q: "Which HTML element creates a paragraph?",
+    options: ["<h1>", "<div>", "<p>", "<a>"],
+    answer: 2
+  },
+  {
+    q: "Which HTML element creates a link?",
+    options: ["<h1>", "<div>", "<p>", "<a>"],
+    answer: 3
+  },
+  {
+    q: "Which CSS property controls spacing between elements?",
+    options: ["color", "font-size", "margin", "padding"],
+    answer: 2
+  },
+  {
+    q: "Which CSS property changes text color?",
+    options: ["color", "font-size", "margin", "padding"],
+    answer: 0
+  },
+  {
+    q: "Which CSS property changes text size?",
+    options: ["color", "font-size", "margin", "padding"],
+    answer: 1
+  },
+  {
+    q: "Which CSS property creates a border?",
+    options: ["color", "font-size", "border", "padding"],
+    answer: 2
+  },
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+],
+
+
+
+
+
+
+
+
+  
+  
+
 "WSU1":[
 
 
@@ -5222,6 +6068,7 @@ function submitExam() {
     document.getElementById('score-display').style.display = 'block';
     document.getElementById('score-display').textContent = `You scored ${score} out of ${currentExam.length}`;
 }
+
 
 
 
